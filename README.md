@@ -10,7 +10,7 @@ Role definitions have no resource group, location or tags, so this module has no
 
 ```hcl
 module "governance-roledefinition" {
-  source = "git::https://github.com/<org>/terraform-azure-governance-roledefinition.git?ref=v1.0.0"
+  source = "git::https://github.com/engryinker/terraform-azure-governance-roledefinition.git?ref=v1.0.0"
 
   role_definitions = {
     lz_contributor = {
